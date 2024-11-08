@@ -206,7 +206,7 @@ Para verificar el contenido estático, visita: [http://192.168.56.21/](http://19
 **Acceso a Grafana en `vm2`:**
 Accede en: [http://192.168.56.22:3000/](http://192.168.56.22:3000/)
 
-Se debe agregar a prometeus como fuente de datos
+Se debe agregar a prometeus como fuente de datos: [http://localhost:9090](http://localhost:9090)
 
 **Visualización de métricas:**
 
