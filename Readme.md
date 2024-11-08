@@ -1,5 +1,11 @@
 ### Proyecto Final de Sistemas Operativos
 
+**Autores:**
+Simón Colonia Amador -22155291
+Alejandro Clavijo Arce - 2215402
+Juan David Moreno Mañunga - 2215290
+Juan Pablo Castaño - 2215929
+
 #### Parte 1: Configuración de la Primera Máquina Virtual
 
 **Configuración de recursos, sistema operativo y red:**
@@ -199,6 +205,14 @@ Para verificar el contenido estático, visita: [http://192.168.56.21/](http://19
 
 **Acceso a Grafana en `vm2`:**
 Accede en: [http://192.168.56.22:3000/](http://192.168.56.22:3000/)
+
+Se debe agregar a prometeus como fuente de datos
+
+**Visualización de métricas:**
+
+Para ver el tráfico de red (peticiones recibidas): agrega en el dashboard la siguiente métrica: node_network_receive_packets_total
+Para ver el uso de memoria: node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes
+Para ver el uso de disco: 
 
 **Ejecución de la prueba de carga con JMeter:**
 ```bash
