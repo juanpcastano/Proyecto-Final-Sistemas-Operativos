@@ -1,10 +1,10 @@
 ### Proyecto Final de Sistemas Operativos
 
 **Autores:**
-Simón Colonia Amador -22155291
-Alejandro Clavijo Arce - 2215402
-Juan David Moreno Mañunga - 2215290
-Juan Pablo Castaño - 2215929
+- Simón Colonia Amador -22155291
+- Alejandro Clavijo Arce - 2215402
+- Juan David Moreno Mañunga - 2215290
+- Juan Pablo Castaño - 2215929
 
 #### Parte 1: Configuración de la Primera Máquina Virtual
 
