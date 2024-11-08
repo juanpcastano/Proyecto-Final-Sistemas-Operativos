@@ -113,11 +113,11 @@
           scrape_configs:
             - job_name: 'prometheus'
               static_configs:
-                - targets: ['192.168.56.10:9090']
+                - targets: ['192.168.56.21:9090']
 
             - job_name: 'node'
               static_configs:
-                - targets: ['192.168.56.10:9100']
+                - targets: ['192.168.56.21:9100']
         dest: /etc/prometheus/prometheus.yml
         owner: prometheus
         group: prometheus

@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.define :vm1 do |vm1|
-    vm1.vm.box = "bento/ubuntu-20.04"
+    vm1.vm.box = "ubuntu/bionic64"
 
     vm1.vm.network "private_network", ip: "192.168.56.21"
 
@@ -32,7 +32,6 @@ Vagrant.configure("2") do |config|
           sudo chown -R $user:$user /home/$user/.ssh
           sudo chmod 700 /home/$user/.ssh
       done
-
       ssh-keygen -t rsa -N "" -f /tmp/host_ssh_key
 
       for user in admin tester appUser; do
@@ -50,7 +49,7 @@ Vagrant.configure("2") do |config|
 
   end
   config.vm.define :vm2 do |vm2|
-    vm2.vm.box = "bento/ubuntu-20.04"
+    vm2.vm.box = "ubuntu/bionic64"
 
     vm2.vm.network "private_network", ip: "192.168.56.22"
 

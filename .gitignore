@@ -1,3 +1,4 @@
 .vagrant
 host_ssh_key
 apache-jmeter-5.6.3
+ubuntu-bionic-18.04-cloudimg-console.log
