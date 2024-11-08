@@ -111,9 +111,6 @@
             scrape_interval: 15s
 
           scrape_configs:
-            - job_name: 'prometheus'
-              static_configs:
-                - targets: ['192.168.56.21:9090']
 
             - job_name: 'node'
               static_configs:
