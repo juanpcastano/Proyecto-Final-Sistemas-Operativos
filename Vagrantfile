@@ -14,9 +14,6 @@ Vagrant.configure("2") do |config|
       vb.cpus = 2
     end
 
-    #vm1.ssh.forward_agent = true
-    #public_key = File.read(File.expand_path("ssh/new_vagrant_key.pub"))
-
     vm1.vm.provision "shell", inline: <<-SHELL
       sudo useradd -m -g admin -s /bin/bash admin 
       echo "admin:password_admin" | sudo chpasswd
