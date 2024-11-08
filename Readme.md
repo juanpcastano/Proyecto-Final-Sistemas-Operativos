@@ -206,7 +206,7 @@ rm -rf test-results/web-report/
 mkdir -p test-results/web-report/
 jmeter -n -t test.jmx -l test-results/results.jtl -e -o test-results/web-report
 ```
-Para la versión `5.6.3` de JMeter:
+Si, como yo, tienes Jmeter 5.6.3 instalado en esta misma carpeta:
 ```bash
 rm -rf test-results/web-report/
 mkdir -p test-results/web-report/
