@@ -1,7 +1,7 @@
 ### Proyecto Final de Sistemas Operativos
 
 **Autores:**
-- Simón Colonia Amador -22155291
+- Simón Colonia Amador - 22155291
 - Alejandro Clavijo Arce - 2215402
 - Juan David Moreno Mañunga - 2215290
 - Juan Pablo Castaño - 2215929
@@ -59,7 +59,7 @@ SHELL
 **Conexión SSH:**
 1. Si ya te has conectado antes, limpia la clave anterior:
    ```bash
-   ssh-keygen -f "/home/kipi/.ssh/known_hosts" -R "[127.0.0.1]:2222"
+   ssh-keygen -f "/home/%tu usuario%/.ssh/known_hosts" -R "[127.0.0.1]:2222"
    ```
 2. Ajusta permisos y conéctate:
    ```bash
