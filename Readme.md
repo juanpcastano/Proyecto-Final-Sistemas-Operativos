@@ -212,7 +212,7 @@ Se debe agregar a prometeus como fuente de datos
 
 - Para ver el tráfico de red (peticiones recibidas): agrega en el dashboard la siguiente métrica: node_network_receive_packets_total
 - Para ver el uso de memoria: node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes
-- Para ver el uso de disco: 
+- Para ver el uso de disco: node_filesystem_size_bytes{mountpoint="/"} - node_filesystem_free_bytes{mountpoint="/"}
 
 **Ejecución de la prueba de carga con JMeter:**
 ```bash
